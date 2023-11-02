@@ -10,6 +10,7 @@ DESCRIPTION
 This code is meant to help the user automatize calculations with
 the Electroweak Chiral Lagrangian. Allowing the user to select 
 the number of terms to be calculated.
+
 This code is meant to be run with Mathematica. In particular,
 making use of the packages of FeynRules and FeynCalc.
 
