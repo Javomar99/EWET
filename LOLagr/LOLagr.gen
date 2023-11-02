@@ -90,12 +90,12 @@ G[+1][s1 S[j1], s2 S[j2], s3 S[j3], s4 S[j4]].{1, ScalarProduct[mom3,mom4], Scal
 	 (* SSSSS *)
 
 AnalyticalCoupling[s1 S[j1, mom1], s2 S[j2, mom2], s3 S[j3, mom3], s4 S[j4, mom4], s5 S[j5, mom5] ] ==
-G[+1][s1 S[j1], s2 S[j2], s3 S[j3], s4 S[j4], s5 S[j5]].{1, ScalarProduct[mom2,mom3], ScalarProduct[mom2,mom4], ScalarProduct[mom2,mom5], ScalarProduct[mom3,mom4], ScalarProduct[mom3,mom5], ScalarProduct[mom4,mom5], ScalarProduct[mom1,mom3], ScalarProduct[mom1,mom4], ScalarProduct[mom1,mom5], ScalarProduct[mom1,mom2]},
+G[+1][s1 S[j1], s2 S[j2], s3 S[j3], s4 S[j4], s5 S[j5]].{1, ScalarProduct[mom4,mom5], ScalarProduct[mom2,mom3], ScalarProduct[mom2,mom4], ScalarProduct[mom2,mom5], ScalarProduct[mom3,mom4], ScalarProduct[mom3,mom5], ScalarProduct[mom1,mom3], ScalarProduct[mom1,mom4], ScalarProduct[mom1,mom5], ScalarProduct[mom1,mom2]},
 
 	 (* SSSSSS *)
 
 AnalyticalCoupling[s1 S[j1, mom1], s2 S[j2, mom2], s3 S[j3, mom3], s4 S[j4, mom4], s5 S[j5, mom5], s6 S[j6, mom6] ] ==
-G[+1][s1 S[j1], s2 S[j2], s3 S[j3], s4 S[j4], s5 S[j5], s6 S[j6]].{1, ScalarProduct[mom3,mom4], ScalarProduct[mom3,mom5], ScalarProduct[mom3,mom6], ScalarProduct[mom4,mom5], ScalarProduct[mom4,mom6], ScalarProduct[mom5,mom6], ScalarProduct[mom1,mom2], ScalarProduct[mom1,mom3], ScalarProduct[mom1,mom4], ScalarProduct[mom1,mom5], ScalarProduct[mom1,mom6], ScalarProduct[mom2,mom3], ScalarProduct[mom2,mom4], ScalarProduct[mom2,mom5], ScalarProduct[mom2,mom6]},
+G[+1][s1 S[j1], s2 S[j2], s3 S[j3], s4 S[j4], s5 S[j5], s6 S[j6]].{1, ScalarProduct[mom5,mom6], ScalarProduct[mom3,mom4], ScalarProduct[mom3,mom5], ScalarProduct[mom3,mom6], ScalarProduct[mom4,mom5], ScalarProduct[mom4,mom6], ScalarProduct[mom1,mom2], ScalarProduct[mom1,mom3], ScalarProduct[mom1,mom4], ScalarProduct[mom1,mom5], ScalarProduct[mom1,mom6], ScalarProduct[mom2,mom3], ScalarProduct[mom2,mom4], ScalarProduct[mom2,mom5], ScalarProduct[mom2,mom6]},
 
 	 (* SSSSSV *)
 
